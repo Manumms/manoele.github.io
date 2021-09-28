@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+   
+    <head>
+        <style>
+            input,
+            select {
+            margin-bottom: 10px;
+            }
+            input[type=radio],
+            input[type=checkbox]{
+            display:inline;
+            }
+            body{
+                text-align: left;
+                margin: 10px;
+            }
+            </style>
+    </head>
+    
+    <body>
+    <h1>Informações Pessoais</h1>
+        <form autocomplete="on" method="POST">
+        <fieldset style="display: inline-block;">
+        <legend>Cadastro do Cliente</legend>
+        <label for="texto">Nome:   </label>
+        <input type="text" name="nome" />
+        <br>
+        <div>
+            <label for="">Sexo:   </label>
+            <input type="radio" name="tipo" value="masc"> Masculino
+            <input type="radio" name="tipo" value="fem"> Feminino    
+        </div>
+        <br>
+        <label for="number">Idade:   </label>
+        <input type="number" min="1">
+        <br>
+        <label for="texto">Endereço:   </label>
+        <input type="text" name="end" />
+        <br>
+        <label for="cidade">Cidade:   </label>
+        <input type="text" name="cid" />
+        <br>
+        <label for="estado">Estado:   </label>
+        <select name="estado">
+            <option value=" ">UF</option>
+            <option value="pa">PA</option>
+            <option value="pa">TO</option>
+            <option value="pa">MA</option>
+        </select>
+        <br>
+        <label for="cep">CEP:   </label>
+        <input type="number" min="1">
+        <br>
+        <label for="tel">Tel. Residencial:   </label>
+        <input type="number" min="1">
+        <br>
+        <label for="cel">Celular:   </label>
+        <input type="number" min="1">
+        <br>
+        <label for="email">Email:   </label>
+        <input type="email" name="email" />
+        <br>
+        </fieldset>
+        <br>
+    </div>
+        <button formaction="http://localhost:3003/usuarios">Incluir</button>
+    </form>
+    
+    </body>
+
+</html>
