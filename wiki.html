@@ -1,0 +1,98 @@
+<html>
+    <body>
+
+        <header id="menu">
+            <a href="#definicao">Definição</a> |
+            <a href="#caracteristicas">Características</a> |
+            <a href="#ferramentas">Ferramentas</a> |
+            <a href="#exemplo">Exemplo</a> |
+            <a href="#video">Vídeo<a/> |
+            <a href="#referencias">Referências</a> 
+        </ul> <hr style="opacity: 50%;">
+
+            <title>miniWikipedia</title>
+            <h1>Dart [Linguagem de Programação]</h1>
+            <img src="https://www.impacta.com.br/blog/wp-content/uploads/2020/04/header_dart.jpg" 
+            alt="logotipo da linguagem dart" height="100" width="255">
+        </header>
+        </ul> <hr style="opacity: 50%;">
+        
+            <section id="definicao">      
+                <h3>Definição</h3>
+                <p>Dart (originalmente denominada Dash) é uma linguagem de script voltada à web desenvolvida pela Google. Ela foi lançada na GOTO Conference 2011, que aconteceu de 10 a 11 de outubro de 2011 em Aarhus, na Dinamarca.</p>
+            </section>
+            <a href="#menu">Voltar<a/>
+        </ul> <hr style="opacity: 50%;">
+
+
+            <section id="caracteristicas">      
+                <h3>Características</h3>
+                <p>O objetivo da linguagem Dart foi inicialmente a de substituir a JavaScript como a linguagem principal embutida nos navegadores. Programas nesta linguagem podem tanto serem executados em uma máquina virtual quanto compilados para JavaScript.
+                    Em novembro de 2013, foi lançada a primeira versão estável, Dart 1.0. Em agosto de 2018 foi lançado o Dart 2.0, um reboot da linguagem, otimizado para o desenvolvimento client-side para Web e dispositivos móveis.</p>
+            </section>
+            <a href="#menu">Voltar<a/>
+        </ul> <hr style="opacity: 50%;">
+
+            <section id="ferramentas">      
+                <h3>Ferramentas de Desenvolvimento</h3> 
+                <p> As ferramentas necessárias, são basicamente: 
+                    <li> SDK do Dart (conjunto de recursos que nos permite criar e executar aplicações escritas nessa linguagem); </li>
+                    <li> Editor de código (Usualmente utilizado o Visual Studio ou Sublime text etc);</li>
+                </p>     
+            </section>
+            <a href="#menu">Voltar<a/>
+        </ul> <hr style="opacity: 50%;">
+
+            <section id="exemplo">      
+                <h3>Exemplo de Código</h3>
+                <pre>
+                    <span></span>
+                    <span class="codigo"> 
+                        import 'dart:io';
+                        import 'dart:math';
+                        
+                        double f(double t) => sqrt(t.abs()) + 5 * pow(t, 3);
+                        
+                        void main() {
+                          final a = List.generate(11, (_) => double.parse(stdin.readLineSync()));
+                          for (var i = a.length - 1; i >= 0; i--) {
+                            final y = f(a[i]);
+                            print(y > 400 ? "${i} TOO LARGE" : "${i} ${y}");
+                          }
+                        }</span> 
+                </pre>          
+            </section>
+            <a href="#menu">Voltar<a/>
+        </ul> <hr style="opacity: 50%;">
+
+            <section id="video">      
+                <h3>Vídeo Curto Explicativo</h3> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/i7IzlVImHEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Vídeo do canal no Youtube "Código Fonte TV".</p>
+            </section>
+            <a href="#menu">Voltar<a/>
+        </ul> <hr style="opacity: 50%;">
+
+        <footer>
+            <section id="referencias">      
+                <h3>Referências</h3> 
+                <ol>
+                    <li>Referencia 1: <a href="https://pt.wikipedia.org/wiki/Dart_(linguagem_de_programa%C3%A7%C3%A3o)"> Wikipedia</a></li> 
+                    <li>Referencia 2: <a href="https://www.devmedia.com.br/crie-um-hello-world-com-dart/40672">Devmedia</a></li>
+                    <li>Referencia 3: <a href="https://www.w3schools.com/">w3schools</a></li>
+                </ol>      
+                <a href="#menu">Voltar<a/>
+
+                <hr>
+            </section>
+        </footer>
+        
+        <style>
+          body section p{
+            text-align: left;
+          }
+    
+        </style>
+   
+    </body>
+</html>
