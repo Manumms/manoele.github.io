@@ -1,0 +1,26 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcfcfc;
+}  
+
+#e{
+    border-bottom: solid #764e36;
+    border-top: solid #764e36;
+    color: #764e36;
+}   
+
+#p, #i{
+    color: white;
+    background-color: #764e36;
+    padding: 5px;
+}
+
+img{
+    padding: 15px;
+    border: solid #764e36;
+}
+
+footer{
+    margin-bottom: 100px;
+}
+
