@@ -27,11 +27,51 @@
 
     </div>
   </body>
-
   <style>
   
-    @media(max-width:)
-   
+        @media (max-width: 680px) {
+            .f1 { 
+            display: block;
+            grid-column-start:1 ;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }}
 
+        @media (max-width: 420px), (orientation: portrait) {
+            .f2 { 
+            display: block;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            }
+        }
+
+        @media (min-width: 419px){
+            .f3 { 
+            display: block;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;}
+        }
+      
+      .grid{
+            display: grid;
+            padding: 10px;
+            grid-template-columns: auto;
+            grid-template-rows: (2, 2fr);
+            gap: 10px;
+        }
+       
+        img{
+          border: 10px solid #fff;  
+          display:flex;
+        }
+
+       
+    
   </style>
+ 
 </html>
