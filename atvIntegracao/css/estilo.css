@@ -1,0 +1,16 @@
+#img {
+    float: right;
+    width: 40%;
+}
+
+#img img {
+    width: 100%;
+}
+
+body {
+    font-size: 1.5em;
+}
+
+input {
+    font-size: 0.8em;
+}
